@@ -128,66 +128,71 @@ table {
   border-spacing: 0;
 }
 
-/* Custom Styling */
-
-body {
-  font-size: 16px;
-  font-family: sans-serif;
-  padding: 40px;
-  line-height: 1.2;
+/* CSS code */
+h1 {
+  font-size: 32px;
+  font-weight: 700;
 }
 
-.container {
-  width: 900px;
-}
+/* layout */
 
-.page-title {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 32px;
+.header,
+.box-section {
+  padding: 28px 28px 0px;
 }
 
 .row {
   font-size: 0;
-  margin: 64px 0;
+  margin-top: 28px;
 }
 
-.box {
+.red-box {
+  background-color: brown;
   display: inline-block;
-  background-color: #b22e25;
-  width: 150px;
+  box-sizing: border-box;
+  width: 200px;
   height: 100px;
-  margin-right: 48px;
+  margin-right: 28px;
 }
 
-.bs-border {
-  border: 4px solid black;
+.solid {
+  border: 5px solid black;
 }
 
-.bd-border {
-  border: 4px double black;
+.dashed {
+  border: 5px dashed black;
 }
 
-.bda-border {
-  border: 4px dashed black;
-}
-.bdo-border {
-  border: 4px dotted black;
+.double {
+  border: 5px double black;
 }
 
-.frame {
-  background-color: #e93f33;
-  color: #fff;
-  width: 300px;
+.dotted {
+  border: 5px dotted black;
+}
+
+.white {
+  border: 5px solid white;
+}
+
+.text-box {
+  box-sizing: border-box;
+  background-color: red;
+  color: white;
+  width: 400px;
   font-size: 12px;
-  padding: 20px;
-  font-family: serif;
-  /* Inside borders */
-  /* border: 28px solid #812e80; */
-  border-top: 14px solid #244afb;
-  border-right: 14px solid #808080;
-  border-left: 14px solid #418107;
-  border-bottom: 14px solid #fdf731;
-  box-shadow: 0 14px 0 14px #812e80, 0 -14px 0 14px #812e80;
-  /* outline: 14px solid #812e80; */
+  line-height: 1.2;
+  /* layout */
+  padding: 16px;
+  border-left: 10px solid #418107;
+  border-top: 10px solid #244afb;
+  border-right: 10px solid #808080;
+  border-bottom: 10px solid #fdf732;
+
+  box-shadow: 0 10px 0 10px #812e80, 0 -10px 0 10px #812e80;
+}
+
+.text-box-section {
+  padding-left: 16px;
+  margin-top: 48px;
 }
