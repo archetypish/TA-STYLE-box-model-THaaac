@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Box Model - 2</title>
+    <link rel="stylesheet" href="./assets/stylesheets/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1 class="title">The Box Model, Box-sizing & Box-shadow</h1>
+      </div>
+    </header>
+    <hr class="dotted" />
+    <main>
+      <section>
+        <article class="container">
+          <h2 class="section-title">Exercise 1</h2>
+          <div class="box"></div>
+          <div class="legend">
+            <span class="legend-item">
+              <span class="legend-col bg-c"></span>
+              Content
+            </span>
+            <span class="legend-item">
+              <span class="legend-colbg-p"></span>
+              Padding
+            </span>
+            <span class="legend-item">
+              <span class="legend-col bg-b"></span>
+              Border
+            </span>
+            <span class="legend-item">
+              <span class="legend-col bg-m"></span>
+              Margin
+            </span>
+          </div>
+        </article>
+      </section>
+      <hr class="dotted" />
+      <section>
+        <h2 class="section-title">Exercise 2</h2>
+
+        <section>
+          <article class="container">
+            <p class="section-desc">no border on these boxes</p>
+            <div class="box-container">
+              <span class="rect-box"></span>
+              <span class="rect-box"></span>
+              <span class="rect-box"></span>
+            </div>
+          </article>
+        </section>
+        <hr class="dotted" />
+        <section>
+          <article class="container">
+            <p class="section-desc">1px border on these boxes</p>
+            <div class="box-container">
+              <span class="rect-box br-1px"></span>
+              <span class="rect-box br-1px"></span>
+              <span class="rect-box br-1px"></span>
+            </div>
+          </article>
+        </section>
+        <hr class="dotted" />
+        <section>
+          <article class="container">
+            <p class="section-desc">
+              1px border on these boxes but they are in the same line
+            </p>
+            <div class="box-container">
+              <span class="rect-box br-1px border-box"></span>
+              <span class="rect-box br-1px border-box"></span>
+              <span class="rect-box br-1px border-box"></span>
+            </div>
+          </article>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
