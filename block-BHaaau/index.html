@@ -1,78 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Box Model Assignment 3</title>
+    <title>Box Model - 2</title>
     <link rel="stylesheet" href="./assets/stylesheets/style.css" />
   </head>
   <body>
     <header>
       <div class="container">
-        <h1>The Box Model, Box-sizing & Box-shadow</h1>
+        <h1 class="title">The Box Model, Box-sizing & Box-shadow</h1>
       </div>
     </header>
-    <hr />
+    <hr class="dotted" />
     <main>
       <section>
-        <div class="container">
-          <header>
-            <h2>Exercise1</h2>
-          </header>
-          <article class="exercise-part">
-            <div class="e1-box"></div>
-            <ul class="e1-list">
-              <li class="e1-list-item">
-                <span class="e1-list-item-circle content"></span>Content
-              </li>
-              <li class="e1-list-item">
-                <span class="e1-list-item-circle padding"></span>Padding
-              </li>
-              <li class="e1-list-item">
-                <span class="e1-list-item-circle border"></span>Border
-              </li>
-              <li class="e1-list-item">
-                <span class="e1-list-item-circle margin"></span>Margin
-              </li>
-            </ul>
-          </article>
-        </div>
+        <article class="container">
+          <h2 class="section-title">Exercise 1</h2>
+          <div class="box"></div>
+          <div class="legend">
+            <span class="legend-item">
+              <span class="legend-col bg-c"></span>
+              Content
+            </span>
+            <span class="legend-item">
+              <span class="legend-colbg-p"></span>
+              Padding
+            </span>
+            <span class="legend-item">
+              <span class="legend-col bg-b"></span>
+              Border
+            </span>
+            <span class="legend-item">
+              <span class="legend-col bg-m"></span>
+              Margin
+            </span>
+          </div>
+        </article>
       </section>
-      <hr />
+      <hr class="dotted" />
       <section>
-        <div class="container">
-          <header>
-            <h2>Exercise2</h2>
-          </header>
+        <h2 class="section-title">Exercise 2</h2>
 
-          <article class="exercise-part">
-            <p>no border on these boxes.</p>
-            <div class="parent-box">
-              <div class="child-box"></div>
-              <div class="child-box"></div>
-              <div class="child-box"></div>
+        <section>
+          <article class="container">
+            <p class="section-desc">no border on these boxes</p>
+            <div class="box-container">
+              <span class="rect-box"></span>
+              <span class="rect-box"></span>
+              <span class="rect-box"></span>
             </div>
           </article>
-          <hr />
-          <article class="exercise-part">
-            <p>1px border on these boxes.</p>
-            <div class="parent-box">
-              <div class="child-box border"></div>
-              <div class="child-box border"></div>
-              <div class="child-box border"></div>
+        </section>
+        <hr class="dotted" />
+        <section>
+          <article class="container">
+            <p class="section-desc">1px border on these boxes</p>
+            <div class="box-container">
+              <span class="rect-box br-1px"></span>
+              <span class="rect-box br-1px"></span>
+              <span class="rect-box br-1px"></span>
             </div>
           </article>
-          <hr />
-          <article class="exercise-part">
-            <p>1px border on these boxes but they are in the same line.</p>
-            <div class="parent-box">
-              <div class="child-box border borderbox"></div>
-              <div class="child-box border borderbox"></div>
-              <div class="child-box border borderbox"></div>
+        </section>
+        <hr class="dotted" />
+        <section>
+          <article class="container">
+            <p class="section-desc">
+              1px border on these boxes but they are in the same line
+            </p>
+            <div class="box-container">
+              <span class="rect-box br-1px border-box"></span>
+              <span class="rect-box br-1px border-box"></span>
+              <span class="rect-box br-1px border-box"></span>
             </div>
           </article>
-        </div>
+        </section>
       </section>
     </main>
   </body>
