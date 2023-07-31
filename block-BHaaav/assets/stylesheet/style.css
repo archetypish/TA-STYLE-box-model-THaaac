@@ -1,0 +1,280 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* --------------Custom Styles------------------ */
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #fff;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.link {
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+hr.solid {
+  height: 0;
+  border: 0;
+  border-top: 1px solid #ccd0df;
+}
+
+.bg-blue-1 {
+  background-color: #4c5c96;
+}
+
+.bg-blue-2 {
+  background-color: #45558d;
+}
+
+.bg-blue-3 {
+  background-color: #3f4e85;
+}
+
+.bg-dark {
+  background-color: #2e3140;
+}
+
+/* --------Typography-------- */
+
+/* header */
+
+.header {
+  text-align: center;
+}
+
+.link-logo {
+  font-size: 24px;
+}
+
+.link-nav {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+/* hero section */
+
+.heading-1,
+.heading-2,
+.heading-3 {
+  text-transform: uppercase;
+}
+.heading-1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.heading-2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.heading-3 {
+  font-size: 16px;
+  color: #787a84;
+}
+
+/* section */
+.section-img {
+  height: 250px;
+  width: 250px;
+  border-radius: 250px;
+  object-fit: cover;
+}
+
+.section-text {
+  font-size: 14px;
+  color: #ccd0df;
+}
+
+.link-readmore {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* footer */
+.text-footer {
+  color: #ccd0df;
+  font-size: 12px;
+}
+
+/* ---------------Layout, Spacing------------------- */
+.header {
+  padding: 12px 0;
+}
+
+.link-logo {
+  margin-bottom: 12px;
+}
+
+.link-nav {
+  margin-right: 20px;
+}
+
+.section-hero {
+  padding: 128px 0;
+}
+
+hr.solid {
+  margin: 16px auto;
+}
+
+.heading-3 {
+  margin-top: 24px;
+}
+
+.section {
+  padding: 48px 0;
+}
+
+.heading-2 {
+  margin-bottom: 20px;
+}
+
+.section-text {
+  margin-bottom: 16px;
+}
+
+.footer {
+  padding: 24px;
+}
